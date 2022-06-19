@@ -32,8 +32,8 @@ const LatestNews = () => {
   return (
     <div className="newsList">     
      <Header/>
-     <div class="sm:container mx-auto px-4">
-       <heading className='flex justify-center text-3xl pt-4 text-center font-light  '>Watch Latest Movies</heading>
+     <div className="sm:container mx-auto px-4">
+       <div className='flex justify-center text-3xl pt-4 text-center font-light  '>Watch Latest Movies</div>
      <NewsList/>  
      </div>
      <Footer/>   

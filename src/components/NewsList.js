@@ -36,7 +36,7 @@ const NewsList = () => {
             <h1>{title}</h1>
             <p>{category}</p>
             <div className='HoverEffect border border-slate-300 p-3 rounded-md '>
-            <span class="btn-play"><img src={playIcon} alt="icon" width='60' /></span>
+            <span className="btn-play"><img src={playIcon} alt="icon" width='60' /></span>
               <p>Watch Movies</p>
             <h1>{title}</h1>
           </div>

@@ -3,9 +3,10 @@
     height: 100%;
     position: relative;
     overflow: hidden;
+    padding-right: 30px;
     h1{
         text-align: left;
-        font-size: 18px;
+        font-size: 20px;
         line-height: normal;
         font-weight: 700;
         text-transform: uppercase;
@@ -17,59 +18,15 @@
         text-align: left;
         padding: 0;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 17px;
     }
     .imgCaption{
         margin-right: 15px;
+        background-color: #e85631;
+        padding: 5px;
     }
 
     small{
         opacity: 0.5;
     }
 }
-
-/*.bocColumn{
-    background-color: #fff;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    h1{
-        text-align: center;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding: 15px 5px 0;
-        color: #e85631;
-    }
-    
-    .HoverEffect{
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        transform: scale(0);
-        opacity: 0;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        transition: all 0.25ms ease-in-out;
-        cursor: pointer;
-        h1{
-            font-size: 30px;
-            line-height: 30px;
-        }
-        p{
-            font-size: 20px;
-            font-weight: 600;
-        }
-    }
-    &:hover .HoverEffect{
-        background-color:rgba(255,255,255,0.8);       
-        transform: scale(1);
-        opacity: 1;
-    }
-}*/
